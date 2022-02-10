@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    text-align: center;
+    color:black;
+    background-color: white;
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.heading{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.paragraph-intro{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin-top: 15px;
+    text-align: justify;
+
+}
+.small-img{
+    border:2px solid black;
+    height: 270px;
+    width: 350px;
+    margin-top: 15px;
+}
+.card{
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-left: 365px;
+    height:270px;
+    padding: 20px;
+    color:white;
+    background-color:black;
+    text-align: justify;
+
+}
+.h3{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+/* .dst{
+    
+    margin-top: 25px;
+} */
+.dst-cns{
+    margin-left: 50px;
+}
+.h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: solid;
+    margin-top: 35px;
+    margin-bottom: 30px;
+
+    color: white;
+    background-color:black;
+}
+.footer{
+    margin-top: 25px;
+    height:80px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    
+}
+.card-dst{
+    height: 350px;
+    width: 450px;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:lightblue;
+    margin-bottom: 30px;
+    
+}
+.card-dst-right{
+    height: 350px;
+    width: 450px;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 93px;
+    background-color: lightblue;
+    
+}
+

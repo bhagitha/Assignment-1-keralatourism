@@ -1,0 +1,92 @@
+
+/* .body{
+
+    background-image: url(../images/cart.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+ */
+
+
+
+.footer{
+        
+        margin-top: 50px !important;
+        bottom: 0;
+        height:80px;
+        text-align: center;
+        color: white;
+        background-color: black;
+}
+/* .x{
+    position : absolute;
+    bottom : 0;
+    height : 500px;
+    margin-top : 40px;
+} */
+/* body{
+    display: flex;
+
+} */
+h2{
+    position: relative;
+    font-size: 14vx;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.3vw black;
+    margin-top: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+h2::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: white;
+    -webkit-text-stroke: 0vw yellow !important;
+    /* border-right: 2px solid green; */
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+    letter-spacing: 2px;
+}
+@keyframes animate
+{
+    0%,10%,100%
+    {
+      width: 0;
+    }
+    70%,90%
+    {
+        width: 100%;
+    }
+}
+.card{
+    margin-top: 0px;
+    align-self: center;
+    margin-left: 0;
+    padding: 0px;
+    border:0;
+}
+.contents{
+    margin-top:75px;
+}
+h1{
+    margin-top: 350px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.head-place{
+    color: black;
+    background-color: blanchedalmond;
+}
+p{ 
+    background-color: blanchedalmond;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
